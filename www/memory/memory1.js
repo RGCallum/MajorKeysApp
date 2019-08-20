@@ -2,52 +2,52 @@
 const cardsArray = [
     {
         name: 'cigar',
-        img: 'img/cigar.png',
+        img: '../Images/cigar.png',
     },
     {
         name: 'beats',
-        img: 'img/beats.png',
+        img: '../Images/beats.png',
     },
     {
         name: 'car',
-        img: 'img/car.png',
+        img: '../Images/car.png',
     },
     {
         name: 'djkJumpman',
-        img: 'img/djkJumpman.png',
+        img: '../Images/djkJumpman.png',
     },
     {
         name: 'yacht',
-        img: 'img/yacht.png',
+        img: '../Images/yacht.png',
     },
     // {
     //     name: 'djkJumpman',
-    //     img: 'img/djkJumpman.png',
+    //     img: '../Images/djkJumpman.png',
     // },
     // {
     //     name: 'horseback',
-    //     img: 'img/horseback.png',
+    //     img: '../Images/horseback.png',
     // },
     // {
     //     name: 'cherub',
-    //     img: 'img/cherub.png',
+    //     img: '../Images/cherub.png',
     // },
     // {
     //     name: 'miami',
-    //     img: 'img/miami.png',
+    //     img: '../Images/miami.png',
     // },
     // {
     //     name: 'money',
-    //     img: 'img/money.png',
+    //     img: '../Images/money.png',
     // },
     // {
     //     name: 'massage',
-    //     img: 'img/massage.png',
+    //     img: '../Images/massage.png',
     // },
 
     // {
     //     name: 'prayerHands',
-    //     img: 'img/prayerHands.png',
+    //     img: '../Images/prayerHands.png',
     // },
 ];
 

@@ -1,54 +1,53 @@
-document.getElementById('iGotKeys').play();
 
 const cardsArray = [
     {
         name: 'cigar',
-        img: 'img/cigar.png',
+        img: '../Images/cigar.png',
     },
     {
         name: 'beats',
-        img: 'img/beats.png',
+        img: '../Images/beats.png',
     },
     {
         name: 'car',
-        img: 'img/car.png',
+        img: '../Images/car.png',
     },
     {
         name: 'djkJumpman',
-        img: 'img/djkJumpman.png',
+        img: '../Images/djkJumpman.png',
     },
     {
         name: 'yacht',
-        img: 'img/yacht.png',
-    },
-    {
-        name: 'blkSlides',
-        img: 'img/blkSlides.png',
-    },
-    {
-        name: 'horseback',
-        img: 'img/horseback.png',
-    },
-    {
-        name: 'cherub',
-        img: 'img/cherub.png',
+        img: '../Images/yacht.png',
     },
     // {
+    //     name: 'djkJumpman',
+    //     img: '../Images/djkJumpman.png',
+    // },
+    // {
+    //     name: 'horseback',
+    //     img: '../Images/horseback.png',
+    // },
+    // {
+    //     name: 'cherub',
+    //     img: '../Images/cherub.png',
+    // },
+    // {
     //     name: 'miami',
-    //     img: 'img/miami.png',
+    //     img: '../Images/miami.png',
     // },
     // {
     //     name: 'money',
-    //     img: 'img/money.png',
+    //     img: '../Images/money.png',
     // },
     // {
     //     name: 'massage',
-    //     img: 'img/massage.png',
+    //     img: '../Images/massage.png',
     // },
 
     // {
     //     name: 'prayerHands',
-    //     img: 'img/prayerHands.png',
+    //     img: '../Images/prayerHands.png',
     // },
 ];
 
@@ -156,6 +155,7 @@ start.addEventListener('click', function () {
     document.querySelector('#start').style.display = 'none';
     document.querySelector('.level1').style.display = 'block';
     document.getElementById('iGotKeys').pause();
+
 })
 
 
@@ -248,16 +248,18 @@ grid.addEventListener('click', function (event) {
 
             }
 
-            if (score === 8000) {
+            if (score === 5000) {
                 // document.getElementById('video1').style.display = 'block';
                 // document.getElementById('video1').play();
                 document.querySelector('#nextRound').style.display = 'block';
+                document.querySelector('.bkgd').style.color = 'black';
 
                 nextRound.addEventListener('click', function () {
                 document.querySelector('#nextRound').style.display = 'none';
                 // document.getElementById('video1').style.display = 'none';
                 // document.getElementById('video1').pause();
-                document.querySelector('.level1').style.display = 'block';
+                
+                // document.querySelector('.bkgd').style.backgroundColor = 'black';
 
         
         
