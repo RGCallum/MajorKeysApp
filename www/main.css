@@ -1,0 +1,114 @@
+html {
+    background-color: rgb(111, 89, 79);
+}
+
+.bkgd1 {
+    background-image: url("/Images/BKGDS/sesame3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -100;
+    width: 110vw;
+    height: 100vh;
+}
+
+ul{
+    margin-left: -65%;
+
+}
+
+a {
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+i, a:hover, .links:hover {
+    color: rgb(226, 186, 73);
+}
+
+.links {
+    background-color: rgba(0, 0, 0, 0.741);
+    background-position: cover;
+    width: 100vw;
+    height: 100vh;
+    /* position: absolute; */
+    margin-left: -20%;
+    margin-top: -5%;
+    text-align: center;
+    padding: 160px;
+}
+
+
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#title {
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: 5%;
+    width: 70%;
+}
+
+@keyframes bounce-in-top {
+    0% {
+        transform: translateY(-500px);
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+    38% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+    55% {
+        transform: translateY(-65px);
+        animation-timing-function: ease-in;
+    }
+    72% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+    81% {
+        transform: translateY(-28px);
+    }
+    90% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+    95% {
+        transform: translateY(-8px);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: translateY(0);
+        animation-timing-function: ease-out;
+    }
+}
+
+
+
+i {
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 767px) {
+    #title{
+        /* margin-left: 25%; */
+
+    }
+    
+    /* a {
+        font-size: 20px;
+    } */
+
+    
+}

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.MajorKeysApp" version="1.4.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>Major Keys Game</name>
+    <description>
+        A DJ Khaled inspired hip-hop trivia game for the "true" Hip Hop Head. The object of Major Keys is to get DJ Khaled's "Keys" of wisdom by answering trivia questions to advance your character closer to his Major Key. If your answer is correct, you collect a key, hear one of DJ Khaled's motivational words (keys) of wisdom, and run closer to him. Each correct word is worth 1000 points and 1 key. Answer incorrectly, and you lose keys, points and DJ Khaled roasts you. To win the game, you need to have at least 3 keys by the end of the game. Score less than 3 keys by the end of the game and you lose! Scoring below -3000 at any point in the game and its GAME OVER!"
+
+    </description>
+    <author email="sceneitpix@gmail.com" href="http://www.sceneitpix.com">
+    SceneIt Dev Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon src="icon.png" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="26" />
+</widget>
