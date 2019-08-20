@@ -94,22 +94,22 @@ function soundsRight() {
     var sound = new Audio();
     switch (x) {
         case 1:
-            sound.src = "audio/WeDaBest1.mp3";
+            sound.src = "../audio/WeDaBest1.mp3";
             break;
         case 2:
-            sound.src = "audio/YouSmart.mp3";
+            sound.src = "../audio/YouSmart.mp3";
             break;
         case 3:
-            sound.src = "audio/You Very Smart.mp3";
+            sound.src = "../audio/You Very Smart.mp3";
             break;
         case 4:
-            sound.src = "audio/YouAGenius.mp3";
+            sound.src = "../audio/YouAGenius.mp3";
             break;
         case 5:
-            sound.src = "audio/YouLoyal.mp3";
+            sound.src = "../audio/YouLoyal.mp3";
             break;
         case 6:
-            sound.src = "audio/I Appreciate You.mp3";
+            sound.src = "../audio/I Appreciate You.mp3";
             break;
 
     }
@@ -123,22 +123,22 @@ function soundsWrong() {
     var sound = new Audio();
     switch (x) {
         case 1:
-            sound.src = "audio/Congratulations You Played Yourself.mp3";
+            sound.src = "../audio/Congratulations You Played Yourself.mp3";
             break;
         case 2:
-            sound.src = "audio/NeverGiveUp.mp3";
+            sound.src = "../audio/NeverGiveUp.mp3";
             break;
         case 3:
-            sound.src = "audio/They Never Said Winning Was Easy.mp3";
+            sound.src = "../audio/They Never Said Winning Was Easy.mp3";
             break;
         case 4:
-            sound.src = "audio/You Think Its A Game Huh.mp3";
+            sound.src = "../audio/You Think Its A Game Huh.mp3";
             break;
         case 5:
-            sound.src = "audio/noExcuseslow2.mp3";
+            sound.src = "../audio/noExcuseslow2.mp3";
             break;
         case 6:
-            sound.src = "audio/Some People Cant Handle Success.mp3";
+            sound.src = "../audio/Some People Cant Handle Success.mp3";
             break;
 
     }
