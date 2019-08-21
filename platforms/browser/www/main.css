@@ -29,7 +29,7 @@ a {
 
 i{
     color: rgb(226, 186, 73);
-
+font-style: normal;
 }
 i:hover, a:hover, .links:hover {
     /* color: rgb(226, 186, 73); */

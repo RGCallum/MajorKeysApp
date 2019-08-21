@@ -5,6 +5,8 @@ i {
     color: rgb(63, 205, 63);
     font-size: 30px !important;
     text-shadow: 2px 2px 12px black;
+    font-style: normal;
+    font-weight: bold;
 }
 
 i:hover {
