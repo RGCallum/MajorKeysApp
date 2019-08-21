@@ -554,6 +554,8 @@ i{
     font-size: 30px;
     text-shadow: 2px 2px 12px black;
     padding: 5px;
+    font-style: normal;
+    font-weight: bold;
 }
 i:hover{
     text-shadow: 2px 2px 8px rgb(155, 255, 149);
